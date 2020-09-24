@@ -1,3 +1,3 @@
 # glowing-broccoli
 
-…is the best ZeugnisNotenEingabeProgramm (ZNEP) in the world.
+…is the best ZeugnisNotenEinGabeProgramm (ZNEGP) in the world.
