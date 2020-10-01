@@ -16,5 +16,5 @@ was ist in A aber nicht in B
 **git show [SHA]**
 zeigt jedes Objekt in Git in lesbarem Format
 
-##Pfadänderungen verfolgen
+## Pfadänderungen verfolgen
 ###
