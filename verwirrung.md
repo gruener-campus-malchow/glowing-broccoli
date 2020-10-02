@@ -1,5 +1,3 @@
-<meta charset="utf-8" emacsmode="-*- markdown -*-"><link rel="stylesheet" href="https://casual-effects.com/markdeep/latest/newsmag.css?">
-
 #STAGE & SNAPSHOT
 ~~~
 git status
@@ -48,5 +46,57 @@ git log
 ~~~
 Zeige alle commits im aktuellen branch-Verlauf an
 
-<style class="fallback">body{visibility:hidden}</style><script>markdeepOptions={tocStyle:'medium'};</script>
-<!-- Markdeep: --><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?" charset="utf-8"></script>
+
+## **Untersuchen & Vergleichen**
+### Untersuche logs, diffs und object Informationen
+
+~~~
+git log
+~~~
+Timeline des branches anzeigen
+
+~~~
+git log branchB..branchA
+~~~
+commits in A aber nicht in B
+~~~
+git log --follow[Datei]
+~~~
+zeigt commits der Datei (geht über Namensänderungen hinweg)
+
+~~~
+git diff branchB...branchA
+~~~
+was ist in A aber nicht in B
+
+~~~
+git show [SHA]
+~~~
+zeigt jedes Objekt in Git in lesbarem Format
+
+## Pfadänderungen verfolgen
+### Versioning, Löschungen und Pfadänderungen
+~~~
+git rm [Datei]
+~~~
+Entfernt Datei und staged diese Änderung
+~~~
+git mv [bestehender Pfad][neuer Pfad]
+~~~
+Ändere einen Pfad und stage Verschiebung
+~~~
+git log --stat -M
+~~~
+Zeigt alle commit logs mit Hervorhebung verschobener Pfade
+## Muster Ignorieren
+### Ungewollte Stagings und Commits verhindern
+~~~
+logs/
+*.notes
+pattern*/
+~~~
+Speichert Datei mit erwünschtem Mustern als .gitignore mit direkter String-Matches oder wildcard globs.
+~~~
+git config --global core.excludesfile [Datei]
+~~~
+Systemwites Ignorationsmuster für alle localen Repositories
