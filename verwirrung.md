@@ -1,4 +1,4 @@
-#STAGE & SNAPSHOT
+# STAGE & SNAPSHOT
 ~~~
 git status
 ~~~
@@ -24,7 +24,7 @@ git commit -m "[deseriptive message]"
 ~~~
 Übernehmen von bereitgestellten Inhalt im neuen commited snapshot
 
-##BRANCH & MERGE
+## BRANCH & MERGE
 ~~~
 git branch
 ~~~
