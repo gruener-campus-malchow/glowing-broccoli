@@ -1,5 +1,5 @@
 Deutsche Übersetzung des Git cheat sheet.
-[link text]('https://education.github.com/git-cheat-sheet-education.pdf')
+[link text](https://education.github.com/git-cheat-sheet-education.pdf)
 
 # STAGE & SNAPSHOT
 ~~~
