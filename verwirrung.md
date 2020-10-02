@@ -24,7 +24,7 @@ git commit -m "[deseriptive message]"
 ~~~
 Übernehmen von bereitgestellten Inhalt im neuen commited snapshot
 
-## BRANCH & MERGE
+# BRANCH & MERGE
 ~~~
 git branch
 ~~~
@@ -47,8 +47,8 @@ git log
 Zeige alle commits im aktuellen branch-Verlauf an
 
 
-## **Untersuchen & Vergleichen**
-### Untersuche logs, diffs und object Informationen
+# **Untersuchen & Vergleichen**
+## Untersuche logs, diffs und object Informationen
 
 ~~~
 git log
@@ -74,8 +74,8 @@ git show [SHA]
 ~~~
 zeigt jedes Objekt in Git in lesbarem Format
 
-## Pfadänderungen verfolgen
-### Versioning, Löschungen und Pfadänderungen
+# Pfadänderungen verfolgen
+## Versioning, Löschungen und Pfadänderungen
 ~~~
 git rm [Datei]
 ~~~
@@ -88,8 +88,8 @@ git mv [bestehender Pfad][neuer Pfad]
 git log --stat -M
 ~~~
 Zeigt alle commit logs mit Hervorhebung verschobener Pfade
-## Muster Ignorieren
-### Ungewollte Stagings und Commits verhindern
+# Muster Ignorieren
+## Ungewollte Stagings und Commits verhindern
 ~~~
 logs/
 *.notes
