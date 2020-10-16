@@ -103,6 +103,7 @@ Speichert Datei mit erwünschtem Mustern als .gitignore mit direkter String-Matc
 git config --global core.excludesfile [Datei]
 ~~~
 Systemwites Ignorationsmuster für alle localen Repositories
+
 ## Scheren & Hochdatieren
 
 Hochdaten von einer anderen Deponie empfangen und einheimische Deponien hochdatieren
