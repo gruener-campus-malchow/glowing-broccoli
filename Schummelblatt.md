@@ -31,23 +31,23 @@ Zeige die Unterschiede was gestaged wurde aber noch nicht commited
 
 ## Branch & Merge
 
-  git branch
+    git branch
 
 Listen deine branches auf. Ein * wird neben dem aktuellen aktiven branch auftauchen
 
-  git branch [branch-name]
+    git branch [branch-name]
 
 Erstelle einen neuen branch im aktuellen commit
 
-  git checkout
+    git checkout
 
 Aus dem aktuellen Arbeitsverzeichnis in neuen branch wechseln
 
-  git merge [branch]
+    git merge [branch]
 
-Fügen den abgegebenen branch-Verlauf im  aktuellen branch ein
+Fügen den abgegebenen branch-Verlauf im    aktuellen branch ein
 
-  git log
+    git log
 
 Zeige alle commits im aktuellen branch-Verlauf an
 
@@ -56,41 +56,41 @@ Zeige alle commits im aktuellen branch-Verlauf an
 Untersuche logs, diffs und object Informationen
 
 
-  git log
+    git log
 
 Timeline des branches anzeigen
 
 
-  git log branchB..branchA
+    git log branchB..branchA
 
 commits in A aber nicht in B
 
-  git log --follow[Datei]
+    git log --follow[Datei]
 
 zeigt commits der Datei (geht über Namensänderungen hinweg)
 
 
-  git diff branchB...branchA
+    git diff branchB...branchA
 
 was ist in A aber nicht in B
 
 
-  git show [SHA]
+    git show [SHA]
 
 zeigt jedes Objekt in Git in lesbarem Format
 
 ## Pfadänderungen verfolgen
 Versioning, Löschungen und Pfadänderungen
 
-  git rm [Datei]
+    git rm [Datei]
 
 Entfernt Datei und staged diese Änderung
 
-  git mv [bestehender Pfad][neuer Pfad]
+    git mv [bestehender Pfad][neuer Pfad]
 
 Ändere einen Pfad und stage Verschiebung
 
-  git log --stat -M
+    git log --stat -M
 
 Zeigt alle commit logs mit Hervorhebung verschobener Pfade
 
