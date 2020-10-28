@@ -162,3 +162,30 @@ schreibe arbeitend vom Dach des Versteckungsstapels
     git stash drop
 
 Verwirf die Veränderungen vom Dach des Versteckungsstapels
+
+##Konfiguration
+    
+Konfigurieren von Benutzerinformationen, die in alles lokalen Repositorys verwendet werden
+
+	git config --global user.name "[firstname lastname]"
+
+Legen Sie einen Namen fest, der bei der Überprüfung des Versionsverlaufs als Gutschrift erkennbar ist.
+
+	git config --global user.email "[valdi -email]"
+
+Legen Sie eine E-Mail-Adresse fest, die jedem Verlaufsmarker zugeordnet wird.
+
+	git config --gloabl color.ui auto
+
+Stellen Sie dieautomatische Befehlszeilenfarbe für Git ein, um die Überprüfung zu vereinfachen.
+
+## Konfiguration & Init
+Benutzerinformationen konfigurieren, Repositorys initialisieren und klonen.
+
+	git init
+
+Initialisieren Sie ein vorhandenes Verzeichnis als Git Repository.
+
+	git clone [url]
+
+Rufen Sie ein gesamtes Repository über eine URL von einem gehosteten Speicherort ab.
