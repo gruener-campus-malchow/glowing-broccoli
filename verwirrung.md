@@ -163,7 +163,7 @@ schreibe arbeitend vom Dach des Versteckungsstapels
 
 Verwirf die Veränderungen vom Dach des Versteckungsstapels
 
-##Konfiguration
+## Konfiguration
     
 Konfigurieren von Benutzerinformationen, die in alles lokalen Repositorys verwendet werden
 
